@@ -3,4 +3,11 @@
     <string name="tituloapp">Calculador RM</string>
     <string name="calculador_rm">Calculador RM</string>
     <string name="descripcion">Titulo principal de la app</string>
+    <string name="kg">Kg levantados</string>
+    <string name="textview_descripcion_kg">Donde se ingresa la cantidad de kilos que se han hecho</string>
+    <string name="repes">Cantidad de repeticiones</string>
+    <string name="textview_descripcion_repes">Cantidad de repeticiones maximas realizadas</string>
+    <string name="resultado">Tu RM es :</string>
+    <string name="textview_descripcion_resultado">Calculo de estimacion de tu RM</string>
+    <string name="textview_descripcionl_resultado">Muestra tras hacer los calculos tu rm\n</string>
 </resources>
