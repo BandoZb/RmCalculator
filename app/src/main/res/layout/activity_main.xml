@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="106dp"
                 android:layout_gravity="center"
-                android:src="@drawable/logotipoBando">
+                android:src="@drawable/logotipo_bando">
 
             </ImageView>
 
@@ -70,10 +70,10 @@
             </TextView>
             <EditText
                 android:layout_width="370dp"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginStart="20sp"
                 android:layout_marginTop="10sp"
-                android:contentDescription="@string/textview_descripcion_kg">
+                android:id="@+id/etKg">
             </EditText>
 
             <TextView
@@ -85,21 +85,41 @@
                 android:layout_marginTop="20sp"
                 android:textSize="20sp">
             </TextView>
+
             <EditText
                 android:layout_width="370dp"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginStart="20sp"
                 android:layout_marginTop="10sp"
-                android:contentDescription="@string/textview_descripcion_repes">
+                android:id="@+id/etRepes">
+
             </EditText>
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Calcular"
+                android:textSize="18sp"
+                android:backgroundTint="@color/creamDark">
+
+            </Button>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="50sp">
+            android:layout_marginTop="10sp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -111,10 +131,13 @@
             </TextView>
             <EditText
                 android:layout_width="370dp"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginStart="20sp"
                 android:layout_marginTop="10sp"
-                android:contentDescription="@string/textview_descripcionl_resultado">
+                android:editable="false"
+                android:id="@+id/etResultado">
+
+            </EditText>
         </LinearLayout>
     </LinearLayout>
 
