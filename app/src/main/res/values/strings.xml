@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CalculadorRmGym</string>
+    <string name="app_name">Rms</string>
     <string name="tituloapp">Calculador RM</string>
     <string name="calculador_rm">Calculador RM</string>
     <string name="descripcion">Titulo principal de la app</string>
