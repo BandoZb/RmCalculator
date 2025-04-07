@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/cream"
+        android:background="@color/whitecloud"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="0dp">
@@ -110,7 +110,7 @@
                 android:textStyle="bold"
                 android:text="Calcular"
                 android:textSize="18sp"
-                android:backgroundTint="@color/creamDark">
+                android:backgroundTint="@color/grisceniza">
 
             </Button>
         </LinearLayout>
